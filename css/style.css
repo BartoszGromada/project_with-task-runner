@@ -10,7 +10,7 @@ body {
 
 .container {
 	text-align: center;
-	padding: 120px 0;
+	padding: 100px 0;
 }
 
 .circle {
@@ -21,6 +21,11 @@ body {
 
 .list_item {
 	display: inline-block;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .section_title	{
@@ -61,6 +66,7 @@ body {
 
 img {
 	margin: 0 auto;
+	object-fit:	cover;
 }
 
 .navigation {
@@ -68,7 +74,64 @@ img {
 	background-repeat: no-repeat;
 	height: 700px;
 	width: 1400px;
+	padding-top: 35px;
 }
+
+.logo {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 41px;
+	color: #fed136;
+	letter-spacing: 1.3px;
+}
+
+.menu {
+	line-height: 41px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.list_item_one {
+	margin-right: 40px;
+}
+
+.splash {
+	padding-top: 150px;
+}
+
+.website_subtitle {
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	letter-spacing: -1.88px;
+	margin-bottom: 55px;
+}
+
+.website_title {
+	color: #ffffff;
+	font-family: "Droid Serif", Serif;
+	font-size: 40px;
+	font-style: italic;
+	letter-spacing: -1px;
+	margin-bottom: 55px;
+}
+
+.btn {
+	display: block;
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 65px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
 .services {
 	background-color: white;
 }
@@ -89,7 +152,6 @@ img {
 	margin: 20px;
 	padding: 0;
 }
-
 
 .footer {
 	background-color: white;
