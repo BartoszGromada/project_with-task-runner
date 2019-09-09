@@ -44,16 +44,23 @@ body {
 	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: -0.45px;
+	margin-bottom: 5px;
+	margin-top: 30px;
 }
 
 .description {
 	color: #777777;
+	margin-bottom: 30px;
 }
 
 .descrition_one {
 	font-family: "Roboto Slab";
 	letter-spacing: -0.35px;
 	font-style: italic;
+}
+
+img {
+	margin: 0 auto;
 }
 
 .navigation {
@@ -78,14 +85,18 @@ body {
 
 .card {
 	background-color: white;
+	display: inline-block;
+	margin: 20px;
+	padding: 0;
 }
+
 
 .footer {
 	background-color: white;
 	padding: 0;
 }
 
-.description_two {
+.description_three {
 	padding-top: 45px;
 }
 
@@ -96,8 +107,4 @@ body {
 	height: 41px;
 	background: #222222;
 	font-size: 16px;
-}
-
-img {
-	margin: 0 auto;
 }
