@@ -1,1 +1,1 @@
-WebSite: https://bartoszgromada.github.io/project_with_task_runner/
+WebSite: https://bartoszgromada.github.io/project_with-task-runner
