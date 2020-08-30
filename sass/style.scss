@@ -1,0 +1,200 @@
+/* Global */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat;
+	background-color: #f7f7f7;
+	font-size: 14px;
+}
+
+.container {
+	text-align: center;
+	padding: 80px 0;
+}
+
+.section_title	{
+	color: #222222;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.description_title {
+	color: #777777;
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 38px;
+}
+
+.item_title {
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -0.45px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+}
+
+.description {
+	color: #777777;
+	margin-bottom: 30px;
+}
+
+.circle {
+	margin: 25px auto;	
+	display: block;
+	border-radius: 50%;
+}
+
+.list_item {
+	display: inline-block;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Navigation */
+
+.navigation {
+	background-image: url("../image/header_background.png");
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 1400px;
+	padding-top: 35px;
+}
+
+.logo {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 41px;
+	color: #fed136;
+	letter-spacing: 1.3px;
+}
+
+.menu {
+	line-height: 41px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu_item {
+	margin-right: 40px;
+}
+
+.splash {
+	padding-top: 150px;
+}
+
+.website_subtitle {
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	letter-spacing: -1.88px;
+	margin-bottom: 55px;
+}
+
+.website_title {
+	color: #ffffff;
+	font-family: "Droid Serif", Serif;
+	font-size: 40px;
+	font-style: italic;
+	letter-spacing: -1px;
+	margin-bottom: 55px;
+}
+
+.btn {
+	display: block;
+	width: 240px;
+	height: 65px;
+	background-color: #fed136;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 65px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
+/* Services */
+.services {
+	background-color: white;
+}
+
+.services_circle {
+	color: #fed136;
+	border: 3px solid #fed136;
+	line-height: 68px;
+	width: 68px;
+	height: 68px;
+	background: #ffffff;
+	font-size: 30px;
+}
+
+.descrition_services {
+	font-family: "Roboto Slab";
+	letter-spacing: -0.35px;
+	font-style: italic;
+}
+
+/* Portfolio */
+
+.card {
+	background-color: white;
+	display: inline-block;
+	margin: 20px;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+/* footer */
+.footer {
+	background-color: white;
+	padding: 0;
+}
+
+.footer_circle {
+	color: white;
+	line-height: 41px;
+	width: 41px;
+	height: 41px;
+	background: #222222;
+	font-size: 16px;
+}
+
+.description_footer {
+	padding-top: 45px;
+}
+
+/* Media */
+
+@media (max-width: 767px) {
+
+	.menu {
+		margin-top: 5px;
+	}
+
+	.description_title {
+		margin-bottom: 10px;
+	}
+
+	.copyright {
+		order: 1;
+	}
+
+	.social_media {
+		order: 0;
+	}
+
+}
